@@ -76,4 +76,9 @@ require("lazy").setup({
     event = "VeryLazy"
   },
 
+  {
+    "numToStr/Comment.nvim",
+    lazy = false,
+  },
+
 })
