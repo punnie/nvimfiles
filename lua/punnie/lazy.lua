@@ -19,24 +19,24 @@ require("lazy").setup({
     build = ":TSUpdate"
   },
   {
-    'nvim-orgmode/orgmode',
-    dependencies = { 'nvim-treesitter/nvim-treesitter', lazy = true },
-    event = 'VeryLazy'
+    "nvim-orgmode/orgmode",
+    dependencies = { "nvim-treesitter/nvim-treesitter", lazy = true },
+    event = "VeryLazy"
   },
 
   {
-    'nvim-lualine/lualine.nvim',
-    dependencies = { 'kyazdani42/nvim-web-devicons', opt = true }
+    "nvim-lualine/lualine.nvim",
+    dependencies = { "kyazdani42/nvim-web-devicons", opt = true }
   },
 
   {
-    'nvim-telescope/telescope.nvim', tag = '0.1.4',
-    dependencies = { 'nvim-lua/plenary.nvim' }
+    "nvim-telescope/telescope.nvim", tag = "0.1.4",
+    dependencies = { "nvim-lua/plenary.nvim" }
   },
 
-  { 'Mofiqul/dracula.nvim' },
+  { "Mofiqul/dracula.nvim" },
 
-  { 'projekt0n/github-nvim-theme' },
+  { "projekt0n/github-nvim-theme" },
 
   {
     "NeogitOrg/neogit",
@@ -48,25 +48,25 @@ require("lazy").setup({
     }
   },
 
-  { 'mbbill/undotree' },
+  { "mbbill/undotree" },
 
-  { 'lewis6991/gitsigns.nvim' },
+  { "lewis6991/gitsigns.nvim" },
 
   {
-    'nvim-tree/nvim-tree.lua',
+    "nvim-tree/nvim-tree.lua",
     dependencies = {
-      'nvim-tree/nvim-web-devicons', -- optional, for file icons
+      "nvim-tree/nvim-web-devicons", -- optional, for file icons
     }
   },
 
   {
-    'VonHeikemen/lsp-zero.nvim', 
-    branch = 'v3.x',
+    "VonHeikemen/lsp-zero.nvim", 
+    branch = "v3.x",
     dependencies = {
-      'neovim/nvim-lspconfig',
-      'hrsh7th/cmp-nvim-lsp',
-      'hrsh7th/nvim-cmp',
-      'L3MON4D3/LuaSnip',
+      "neovim/nvim-lspconfig",
+      "hrsh7th/cmp-nvim-lsp",
+      "hrsh7th/nvim-cmp",
+      "L3MON4D3/LuaSnip",
     }
   },
 })
