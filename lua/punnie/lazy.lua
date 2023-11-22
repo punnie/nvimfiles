@@ -36,6 +36,8 @@ require("lazy").setup({
 
   { 'Mofiqul/dracula.nvim' },
 
+  { 'projekt0n/github-nvim-theme' },
+
   {
     "NeogitOrg/neogit",
     dependencies = {
