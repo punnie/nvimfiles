@@ -8,6 +8,7 @@ require'nvim-treesitter.configs'.setup {
     "javascript",
     "json",
     "lua",
+    "nix",
     "org",
     "python",
     "ruby",
