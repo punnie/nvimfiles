@@ -4,7 +4,6 @@ require'nvim-treesitter.configs'.setup {
     "bash",
     "diff",
     "go",
-    "help",
     "http",
     "javascript",
     "json",
