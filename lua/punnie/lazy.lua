@@ -44,6 +44,10 @@ require("lazy").setup({
       "sindrets/diffview.nvim",        -- optional
       "ibhagwan/fzf-lua",              -- optional
     }
+  },
+
+  { 'mbbill/undotree' },
+
   { 'lewis6991/gitsigns.nvim' },
 
   {
