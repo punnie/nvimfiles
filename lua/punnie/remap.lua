@@ -16,6 +16,9 @@ vim.keymap.set('n', '<leader>wJ', '<C-w>J')
 vim.keymap.set('n', '<leader>wK', '<C-w>K')
 vim.keymap.set('n', '<leader>wL', '<C-w>L')
 
+-- Resize windows
+vim.keymap.set('n', '<leader>w=', '<C-w>=')
+
 -- Quit windows
 vim.keymap.set('n', '<leader>wq', '<C-w>q')
 
