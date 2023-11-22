@@ -69,4 +69,11 @@ require("lazy").setup({
       "L3MON4D3/LuaSnip",
     }
   },
+
+  {
+    "kylechui/nvim-surround",
+    version = "*",
+    event = "VeryLazy"
+  },
+
 })
