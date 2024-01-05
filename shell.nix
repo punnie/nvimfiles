@@ -1,11 +1,24 @@
 { pkgs ? import <nixpkgs> {} }:
 
 pkgs.mkShell {
-  buildInputs = [
-    pkgs.lua
-    pkgs.lua-language-server
+  nativeBuildInputs = with pkgs; [
+    autoconf
+    automake
+    clang
+    cmake
+    gcc
+    libtool
+    makeWrapper
+    pkgconfig
+  ];
 
-    pkgs.nodejs
+  buildInputs = with pkgs; [
+    lua
+    lua-language-server
+
+    nodejs
+
+    clang
   ];
 
   shellHook = ''
