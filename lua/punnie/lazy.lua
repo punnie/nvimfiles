@@ -120,5 +120,7 @@ require("lazy").setup({
       -- Set configuration options here
       -- vim.g["conjure#debug"] = true
     end,
-  }
+  },
+
+  { "github/copilot.vim" }
 })
