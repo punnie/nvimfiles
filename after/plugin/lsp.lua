@@ -15,4 +15,5 @@ lsp_zero.set_sign_icons({
 
 -- Language servers
 require('lspconfig').lua_ls.setup({})
+require('lspconfig').gopls.setup({})
 require('lspconfig').solargraph.setup({})
