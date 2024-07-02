@@ -1,6 +1,6 @@
 require'nvim-treesitter.configs'.setup {
   -- A list of parser names, or "all"
-  ensure_installed = { 
+  ensure_installed = {
     "bash",
     "diff",
     "css",
@@ -52,3 +52,6 @@ require'nvim-treesitter.configs'.setup {
     additional_vim_regex_highlighting = false,
   },
 }
+
+-- Update treesitter parsers
+vim.keymap.set('n', '<leader>otu', vim.cmd.TSUpdateSync)
