@@ -15,7 +15,10 @@ lsp_zero.set_sign_icons({
 
 -- Diagnostics config
 vim.diagnostic.config({
-  virtual_text = false,
+  virtual_text = {
+    virt_text_pos = "right_align";
+    suffix = "  ";
+  },
   severity_sort = true,
   float = {
     style = 'minimal',
