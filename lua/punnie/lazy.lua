@@ -84,17 +84,15 @@ require("lazy").setup({
   {
     "AlexvZyl/nordic.nvim",
     lazy = false,
-    priority = 1000,
-    config = function()
-      require "nordic".load()
-    end
+    priority = 1000
   },
 
   { "zbirenbaum/copilot.lua" },
 
-  { "zbirenbaum/copilot-cmp",
-    config = function ()
-      require("copilot_cmp").setup()
-    end
+  { "zbirenbaum/copilot-cmp" },
+
+  {
+    "f-person/git-blame.nvim",
+    event = "VeryLazy"
   }
 })
