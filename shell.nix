@@ -9,7 +9,7 @@ pkgs.mkShell {
     gcc
     libtool
     makeWrapper
-    pkgconfig
+    pkg-config
   ];
 
   buildInputs = with pkgs; [
