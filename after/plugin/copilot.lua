@@ -1,5 +1,8 @@
 require("copilot").setup({
-  suggestion = { enabled = false },
+  suggestion = {
+    enabled = true,
+    auto_trigger = true,
+  },
   panel = { enabled = false },
 })
 
@@ -12,3 +15,4 @@ vim.cmd[[Copilot disable]]
 -- })
 --
 -- vim.g.copilot_no_tab_map = true
+

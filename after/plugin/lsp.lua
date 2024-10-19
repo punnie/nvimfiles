@@ -15,10 +15,10 @@ lsp_zero.set_sign_icons({
 
 -- Diagnostics config
 vim.diagnostic.config({
-  virtual_text = {
-    virt_text_pos = "right_align";
-    suffix = "  ";
-  },
+  -- virtual_text = {
+  --   virt_text_win_col = 100;
+  -- },
+  virtual_text = true,
   severity_sort = true,
   float = {
     style = 'minimal',
@@ -76,7 +76,6 @@ cmp.setup {
     end, { 'i', 's' }),
   }),
   sources = cmp.config.sources({
-    { name = "copilot" },
     { name = 'nvim_lsp' },
     { name = 'luasnip' },
   }),

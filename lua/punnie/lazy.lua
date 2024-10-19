@@ -89,7 +89,7 @@ require("lazy").setup({
 
   { "zbirenbaum/copilot.lua" },
 
-  { "zbirenbaum/copilot-cmp" },
+  -- { "zbirenbaum/copilot-cmp" },
 
   {
     "f-person/git-blame.nvim",
